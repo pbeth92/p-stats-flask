@@ -1,11 +1,14 @@
-import os
-from dotenv import load_dotenv
-from app import create_app
+from app.config import Config
+from app import create_app, init_db
 
-load_dotenv()
+def main():
+    app = create_app()
+    init_db()
 
-app = create_app()
+    port = Config.PORT
+    debug_mode = Config.DEBUG
+
+    app.run(debug=debug_mode, port=port)
 
 if __name__ == '__main__':
-    port = int(os.getenv('PORT', 5000))
-    app.run(debug=True, port=port)
+    main()
