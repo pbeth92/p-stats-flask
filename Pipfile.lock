@@ -1,0 +1,48 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "166fdcd3808625b07c98c50066ab81b83610bda49b3e726dee6b28b3000a9d1b"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.12"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "blinker": "==1.9.0",
+        "click": "==8.1.8",
+        "colorama": "==0.4.6",
+        "dnspython": "==2.7.0",
+        "flask": "==3.1.0",
+        "flask-cors": "==5.0.0",
+        "itsdangerous": "==2.2.0",
+        "jinja2": "==3.1.5",
+        "joblib": "==1.4.2",
+        "markupsafe": "==3.0.2",
+        "marshmallow": "==3.23.2",
+        "marshmallow-mongoengine": "==0.31.2",
+        "mongoengine": "==0.29.1",
+        "numpy": "==2.2.1",
+        "packaging": "==24.2",
+        "pandas": "==2.2.3",
+        "pyhumps": "==3.8.0",
+        "pymongo": "==4.10.1",
+        "python-dateutil": "==2.9.0.post0",
+        "python-dotenv": "==1.0.1",
+        "pytz": "==2024.2",
+        "scikit-learn": "==1.6.0",
+        "scipy": "==1.14.1",
+        "six": "==1.17.0",
+        "threadpoolctl": "==3.5.0",
+        "tzdata": "==2024.2",
+        "werkzeug": "==3.1.3"
+    },
+    "develop": {}
+}

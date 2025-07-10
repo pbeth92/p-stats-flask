@@ -1,9 +1,12 @@
 blinker==1.9.0
+certifi==2025.1.31
 click==8.1.8
 colorama==0.4.6
-confluent-kafka==2.6.0
+distlib==0.3.9
 dnspython==2.7.0
+filelock==3.17.0
 Flask==3.1.0
+Flask-Cors==5.0.0
 itsdangerous==2.2.0
 Jinja2==3.1.5
 joblib==1.4.2
@@ -14,6 +17,8 @@ mongoengine==0.29.1
 numpy==2.2.1
 packaging==24.2
 pandas==2.2.3
+pipenv==2024.4.1
+platformdirs==4.3.6
 pyhumps==3.8.0
 pymongo==4.10.1
 python-dateutil==2.9.0.post0
@@ -21,7 +26,9 @@ python-dotenv==1.0.1
 pytz==2024.2
 scikit-learn==1.6.0
 scipy==1.14.1
+setuptools==76.0.0
 six==1.17.0
 threadpoolctl==3.5.0
 tzdata==2024.2
+virtualenv==20.29.3
 Werkzeug==3.1.3
